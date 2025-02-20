@@ -1,47 +1,54 @@
 h1 {
-    background-color: rgb(84, 139, 216);
-    color: white;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+  background-color: rgb(84, 139, 216);
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
 }
 
 body {
-    background-color: rgb(115, 162, 238);
-
+  background-color: rgb(115, 162, 238);
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(194, 210, 254);
-    border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(194, 210, 254);
+  border-radius: 25px;
 }
 
 .homebar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .homebar li {
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    font-size: 25px;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  font-size: 25px;
 }
 
 .homebar a {
-    text-decoration: none;
-    color:  rgb(84, 139, 216);
-    border: 2px solid rgb(84, 139, 216);
-    border-radius: 8px;
-    padding: 5px;
+  text-decoration: none;
+  color: rgb(84, 139, 216);
+  border: 2px solid rgb(84, 139, 216);
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .homebar a:hover {
-    color: rgb(4, 52, 119);
-    border: 0;
+  color: rgb(4, 52, 119);
+  border: 0;
+}
+
+#Toronto-Market-Place {
+  width: 20%;
+  height: auto;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: aliceblue;
 }
