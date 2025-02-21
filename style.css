@@ -48,16 +48,43 @@ nav {
 #Toronto-Market-Place {
   width: 20%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 100px;
   padding: 5px;
   background-color: aliceblue;
 }
 
 #Parliament {
-  width: 25%;
+  width: 16%;
   align-items: center;
   height: auto;
   margin-top: 100xp;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+#Glebe {
+  width: 18%;
+  align-items: left;
+  height: auto;
+  margin-top: 50xp;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+#Segelflug {
+  width: 20%;
+  align-items: center;
+  height: auto;
+  margin-top: 70xp;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+#Gatineau {
+  width: 21%;
+  align-items: left;
+  height: auto;
+  margin-top: 50xp;
   padding: 5px;
   background-color: aliceblue;
 }
