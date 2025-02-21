@@ -52,3 +52,12 @@ nav {
   padding: 5px;
   background-color: aliceblue;
 }
+
+#Parliament {
+  width: 25%;
+  align-items: center;
+  height: auto;
+  margin-top: 100xp;
+  padding: 5px;
+  background-color: aliceblue;
+}
