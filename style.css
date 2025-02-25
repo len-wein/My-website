@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   background-color: rgb(84, 139, 216);
   color: white;
@@ -47,44 +51,36 @@ nav {
 
 #Toronto-Market-Place {
   width: 20%;
-  height: auto;
-  margin-top: 100px;
-  padding: 5px;
   background-color: rgb(59, 106, 146);
 }
 
 #Parliament {
   width: 16%;
-  align-items: center;
-  height: auto;
-  margin-top: 100xp;
-  padding: 5px;
   background-color: rgb(98, 213, 83);
 }
 
 #Glebe {
   width: 18%;
-  align-items: left;
-  height: auto;
-  margin-top: 50xp;
-  padding: 5px;
   background-color: rgb(123, 39, 151);
 }
 
 #Segelflug {
   width: 20%;
-  align-items: center;
-  height: auto;
-  margin-top: 70xp;
-  padding: 5px;
   background-color: rgb(247, 185, 26);
 }
 
 #Gatineau {
   width: 21%;
-  align-items: left;
-  height: auto;
-  margin-top: 50xp;
-  padding: 5px;
   background-color: rgb(246, 235, 26);
+}
+
+.image-galery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.image-galery img {
+  padding: 5px;
 }
