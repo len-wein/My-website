@@ -51,27 +51,26 @@ nav {
 
 #Toronto-Market-Place {
   width: 20%;
-  background-color: rgb(59, 106, 146);
+}
+
+#Toronto-Market-Place img {
+  width: 100%;
 }
 
 #Parliament {
   width: 16%;
-  background-color: rgb(98, 213, 83);
 }
 
 #Glebe {
   width: 18%;
-  background-color: rgb(123, 39, 151);
 }
 
 #Segelflug {
   width: 20%;
-  background-color: rgb(247, 185, 26);
 }
 
 #Gatineau {
   width: 21%;
-  background-color: rgb(246, 235, 26);
 }
 
 .image-galery {
@@ -83,4 +82,5 @@ nav {
 
 .image-galery img {
   padding: 5px;
+  background-color: rgb(59, 106, 146);
 }
