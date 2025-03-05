@@ -58,11 +58,11 @@ nav {
 }
 
 #Parliament {
-  width: 16%;
+  width: 20%;
 }
 
 #Glebe {
-  width: 18%;
+  width: 20%;
 }
 
 #Segelflug {
@@ -70,7 +70,7 @@ nav {
 }
 
 #Gatineau {
-  width: 21%;
+  width: 20%;
 }
 
 .image-galery {
@@ -83,4 +83,13 @@ nav {
 .image-galery img {
   padding: 5px;
   background-color: rgb(59, 106, 146);
+}
+
+.contact-info {
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
