@@ -4,24 +4,31 @@
 
 :root {
   font-family: "Times New Roman", Times, serif;
+
+  /* Color palette */
+  --first-color: rgb(84, 139, 216);
+  --second-color: rgb(59, 106, 146);
+  --third-color: rgb(4, 52, 119);
+  --fourth-color: rgb(115, 162, 238);
+  --fifth-color: rgb(194, 210, 254);
 }
 
 h1 {
-  background-color: rgb(84, 139, 216);
+  background-color: var(--first-color);
   color: white;
   text-align: center;
   font-size: 60px;
 }
 
 body {
-  background-color: rgb(115, 162, 238);
+  background-color: var(--fourth-color);
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(194, 210, 254);
+  background-color: var(--fifth-color);
   border-radius: 25px;
 }
 
@@ -41,14 +48,14 @@ nav {
 
 .homebar a {
   text-decoration: none;
-  color: rgb(84, 139, 216);
-  border: 2px solid rgb(84, 139, 216);
+  color: var(--first-color);
+  border: 2px solid var(--first-color);
   border-radius: 8px;
   padding: 5px;
 }
 
 .homebar a:hover {
-  color: rgb(4, 52, 119);
+  color: var(--third-color);
   border: 0;
 }
 
@@ -59,7 +66,7 @@ nav {
 .image-galery figure img {
   width: 100%;
   padding: 5px;
-  background-color: rgb(59, 106, 146);
+  background-color: var(--second-color);
 }
 
 .image-galery {
@@ -77,7 +84,7 @@ nav {
 }
 
 figcaption {
-  color: rgb(59, 106, 146);
+  color: var(--second-color);
   font-size: 17px;
 }
 
@@ -93,7 +100,7 @@ figcaption {
   display: flex;
   justify-content: right;
   margin: 20px;
-  background-color: rgb(59, 106, 146);
+  background-color: var(--second-color);
 }
 
 .about-me {
@@ -105,7 +112,7 @@ figcaption {
 
 .about-me img {
   padding: 5px;
-  background-color: rgb(59, 106, 146);
+  background-color: var(--second-color);
 }
 
 #Winterberg {
