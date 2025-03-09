@@ -108,20 +108,17 @@ figcaption {
 
 .about-me {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 20px;
 }
 
+.about-me figure {
+  flex-basis: 30%;
+}
+
 .about-me img {
   padding: 5px;
+  width: 100%;
   background-color: var(--second-color);
-}
-
-#Winterberg {
-  width: 80px;
-}
-
-#Island-Schwestern {
-  width: 80px;
 }
