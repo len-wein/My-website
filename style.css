@@ -85,7 +85,7 @@ nav {
 
 .contact-info {
   color: white;
-  padding: 50px;
+  margin: 50px;
   font-size: 20px;
 }
 
@@ -96,17 +96,12 @@ figcaption {
 
 #Bewerbungsfoto {
   width: 20%;
-}
+  padding: 8px;
 
-.contact-foto {
-  column-count: 2;
-  column-width: auto;
-  column-gap: 20px;
-
-  display: flex;
-  justify-content: right;
-  margin: 20px;
+  float: right;
   background-color: var(--second-color);
+  /* The picture has a low quality and a transparent border
+  -> Not your code is trash it is the image */
 }
 
 /* About me page content */
