@@ -1,3 +1,4 @@
+/* Flobal Configs and reset */
 * {
   box-sizing: border-box;
 }
@@ -23,6 +24,8 @@ h1 {
 body {
   background-color: var(--fourth-color);
 }
+
+/* Navigation and Header */
 
 nav {
   display: flex;
@@ -59,8 +62,10 @@ nav {
   border: 0;
 }
 
+/* Main page content */
+
 .image-galery figure {
-  width: 25%;
+  flex-basis: 20%;
 }
 
 .image-galery figure img {
@@ -76,10 +81,11 @@ nav {
   margin: 20px;
 }
 
+/* Contact page content */
+
 .contact-info {
   color: white;
-  padding-top: 50px;
-  padding-left: 50px;
+  padding: 50px;
   font-size: 20px;
 }
 
@@ -102,6 +108,8 @@ figcaption {
   margin: 20px;
   background-color: var(--second-color);
 }
+
+/* About me page content */
 
 .about-me {
   display: flex;
