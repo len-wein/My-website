@@ -49,44 +49,14 @@ nav {
   border: 0;
 }
 
-#Toronto-Market-Place {
-  width: 20%;
-}
-
-#Toronto-Market-Place img {
-  width: 100%;
-}
-
-#Parliament img {
-  width: 100%;
-}
-
-#Gatineau img {
-  width: 100%;
-}
-
-#Glebe img {
-  width: 100%;
-}
-
-#Segelflug img {
-  width: 100%;
-}
-
-#Parliament {
+.image-galery figure {
   width: 25%;
 }
 
-#Glebe {
-  width: 25%;
-}
-
-#Segelflug {
-  width: 25%;
-}
-
-#Gatineau {
-  width: 25%;
+.image-galery figure img {
+  width: 100%;
+  padding: 5px;
+  background-color: rgb(59, 106, 146);
 }
 
 .image-galery {
@@ -94,11 +64,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 20px;
-}
-
-.image-galery img {
-  padding: 5px;
-  background-color: rgb(59, 106, 146);
 }
 
 .contact-info {
